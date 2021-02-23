@@ -1,0 +1,43 @@
+.common_input {
+    padding: 13px;
+    border-radius: 3px;
+    background-color: rgba(243, 247, 250, 0.418);
+    color: white;
+    font-size: 1rem;
+}
+
+.app_input {
+    margin-bottom: 10px;
+}
+
+.int li, .user li{
+    list-style-type: none;
+}
+
+.common_input::placeholder {
+    color: white !important;
+}
+
+.common_input:focus {
+    border: none;
+    outline-width: 0;
+    color: white;
+}
+
+.app_input > input {
+    border: none;
+    outline-width: 0;
+}
+
+.btn {
+    background-color: white;
+    color: rgb(9, 12, 39);
+    padding: 12px 23px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    border: none;
+    outline-width: 0;
+}
